@@ -32,7 +32,7 @@ class Control extends Component {
             value="delete"
             onClick={function (e) {
               e.preventDefault();
-              this.props.onChangeMode('create');
+              this.props.onChangeMode('delete');
             }.bind(this)}
           ></input>
         </li>
